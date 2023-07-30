@@ -1,0 +1,12 @@
+<script>
+   function message(greeting, callback){
+      console.log(greeting);
+      callback();
+   }
+
+   function afterwards(){
+      console.log('Good bye');
+   }
+
+   message('Hello', afterwards);
+</script>
